@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:nazi ;
+    font-weight: 16px;
+    src: url("font/RedHatDisplay-Medium.ttf");
+}
+@font-face {
+    font-family:nazi-bold ;
+    font-weight: 400px;
+    src: url("font/RedHatDisplay-Bold.ttf");
+
+}
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.main {
+    width: 26%;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    margin-top: 55px;
+    box-shadow: 0px 9px 15px #4864e063;
+
+}
+
+.main img{
+    width: 100% ;
+    border-radius: 15px 15px 0 0;
+}
+
+.top {
+    padding: 0px 29px 12px 29px;
+    font-family: nazi;
+    font-size: 16px;
+}
+
+.main h1 , .text{
+    font-family: nazi-bold;
+    font-size: 27px;    
+}
+
+.music {
+    width: 350px;
+    height: 85px;
+    margin-left: 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+}
+
+
+.icon img {
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin: 28px 0px 0px 19px;
+}
+
+.music a {
+    float: right;
+    margin: 35px 17px 0px 0px;
+    font-family: nazi;
+}
+
+.text {
+    float: left;
+    margin: 28px 0px 0px 2px;
+    font-size: 15px;
+}
+
+.music {
+    width: 88%;
+    height: 95px;
+    margin-left: 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+}
+
+.btn button {
+    width: 88%;
+    height: 43px;
+    border-radius: 12px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    margin-top: 20px;
+    box-shadow: 0px 9px 15px #4864e063;
+    margin-bottom: 23px;
+    font-family: nazi-bold;
+}
+
+.btn button:hover ,.cancel:hover {
+    cursor: pointer;
+}
+.main .cancel {
+    margin-top: 10px;
+    font-family: nazi-bold;
+    font-size: 13px;
+}
+.year ,.cancel ,.top {
+    color: hsl(224, 23%, 55%);
+    
+}
+
+.year {
+    font-family: nazi;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 375px){
+    body {
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+    .main {
+        width: 77%;
+    }
+} 
+
+@media screen and (max-width: 1440){
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+    .main {
+        width: 26%;
+    }
+} 
