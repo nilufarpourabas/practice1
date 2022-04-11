@@ -134,3 +134,35 @@ body {
         width: 26%;
     }
 } 
+@media screen and (max-width: 1000px){
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+    .main {
+        width: 35%;
+    }
+} 
+@media screen and (max-width: 650px){
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+    .main {
+        width: 55%;
+    }
+} 
+@media screen and (max-width: 745px){
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+    .main {
+        width: 55%;
+    }
+} 
+@media screen and (max-width: 475px){
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+    .main {
+        width: 65%;
+    }
+} 
